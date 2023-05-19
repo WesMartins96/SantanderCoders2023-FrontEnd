@@ -1,0 +1,74 @@
+HTML
+- Conhecendo a estrutura da linguagem que é a base da web.
+- Usado no FRONT-END.
+
+FRONT-END
+- A "parte visual" da aplicação, ou seja, a parte com a qual o usuário interage.
+- Composto por HTML, Css e Javascript.
+
+INTRODUÇÃO AO HTML
+- HTML: HyperText Markup Language (Linguagem de Marcação Hipertexto)
+- HIPERTEXTO é um termo da semiótica (ciência que estuda a comunicação) que significa que, diferentemente de um texto comum,
+ele pode conter referências.
+- Essas referências	são o que chamamos de LINK.
+- Na semiótica é comum considerar praticamente a web inteira como um único hipertexto.
+- Dizemos isso para dar um pouco de contexto, mas o que nos interessa mais como programadores é o Markup.
+- Uma linguagem de marcação é uma lingugaem que possuem símbolos especiais que indicam METAINFORMAÇÕES.
+- Elas referem-se à FORMA, HIERARQUIA, ORDEM e/ou SEMÂNTICA dos elementos da página.
+- Atualmente está na versão 5 (2014).
+
+RESUMO
+- Marcações -> TAGS
+- TAGS HTML:
+    - Delimitadas por '<'e'>';
+    - Usadas para descrever o ELEMENTO que será adicionado;
+    - Exemplo de tags HTML:
+        - <button>
+        - <p>
+        - Dentre outras.
+
+EXEMPLO: Para pedir para o navegador exibir um [elemento] botão, podemos dizer:
+    <button>Clique Aqui</button>
+
+ELEMENTO HTML I
+- Geralmente contém três componentes:
+    - Tag de abertura;
+    - Conteúdo;
+    - Tag de fechamento;
+
+ELEMENTO HTML II 
+- Possui um tipo (ex: botão, parágrafo, imagem, lista, tabela).
+- A representação textual de um elemento em código HTML é chamado de tag.
+- Grande parte dos elementos HTML permite que outros elementos sejam declarados em seu interior. Outros permitem apenas
+elementos específicos ou texto e outros ainda não permitem que nada seja colocado entre suas tags, esses têm a tag fechada nela mesmo.
+
+ELEMENTO HTML III
+- Elementos também podem ter informações adicionais chamados de atributos.
+- Atributos são pares chave-valor, separados por = e os valores devem estar envoltos em aspas.
+- Alguns atributos podem ser usados em qualquer elemento como, por exemplo, style que nos permite usar CSS para estilizar o elemento,
+ou id que provê uma identificação única para o elemento.
+
+ESTRUTURA HTML
+DOCTYPE
+html (Lang)
+    head
+        title
+        meta (charset)
+    body
+        Tags de Conteúdo
+
+PRINCIPAIS TAGS
+<html>...</html>    Conteúdo HTML
+<head>...</head>    Cabeçalho do documento
+<title>...</title>  Título da página HTML
+<body>...</body>    Corpo do documento (página)
+<h1>...</h1>        Cabeçalho de nível 1 (pode variar de 1 a 6)
+<p>...</p>          Parágrafo
+<div>...</div>      Conteúdo genérico
+<a>...</a>          Link
+<span>...</span>    Conteúdo genérico em linha
+<table>...</table>  Tabela
+<ul>...</ul>        Lista não numerada
+<ol>...</ol>        Lista numerada
+<li>...</li>        Elemento da lista (<ul> ou <ol>)
+<img/>              imagem
