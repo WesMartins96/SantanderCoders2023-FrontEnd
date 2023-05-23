@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 - Tags de Formatação de Texto</title>
+</head>
+<body>
+    <!-- 
+        Negrito (b, strong)
+        Itálico (i, em)
+        Sublinhado (u -> Não indicado) 
+        Riscado (s)
+        Destacando um texto (mark)
+        Texto pré-formatado (pre)
+        Código (code)
+        Citação (blockquote)
+        Subscrito (sub)
+        Sobrescrito (sup)
+    -->
+
+    <h1>Tags de Formatação de Texto</h1>
+    <hr>
+
+    <!-- strong: Faz com que além de negrito, ele seja um texto importante para buscas na web -->
+    <p>O HTML <b>(HyperText Markup Language)</b> é uma linguagem de marcação utilizada para criar e estruturar o conteúdo de <strong>páginas da web</strong>. Ele é a base fundamental para a construção de sites e aplicações web, permitindo que os desenvolvedores organizem e apresentem informações de forma clara e consistente.</p>
+    
+    <!-- em: Faz com que o conteúdo tenha ênfase -->
+    <!-- u: Não é indicado o uso, o ideal é usar o text-decoration com CSS -->
+    <p>Além das tags básicas, o <i>HTML também permite a inclusão de links</i> , imagens, listas, tabelas e formulários, entre outros elementos, o que amplia suas possibilidades de criação e interatividade. <em>O uso de atributos</em>, também é essencial para fornecer informações adicionais aos elementos como a <u>classe</u>, o ID, o <s>estilo de formatação</s> e os valores para formulários</p>
+    
+    <p>Em suma, <mark>o HTML é uma linguagem essencial</mark> para a criação de páginas da web, permitindo que os desenvolvedores estruturem e apresentem conteúdo de forma eficiente. Combinado com outras tecnologias, como CSS e JavaScript, o HTML possibilita a criação de experiências web ricas e interativas. É uma ferramenta fundamental para aqueles que desejam construir sites e aplicações online de qualidade.</p>
+    
+    <!-- pre: Ideal para pré-formatar textos como se fosse um código mesmo, ele pega a indentação que colocarmos ao digitar -->
+    <pre>
+        nome = 'Wesley Martins'
+
+        print('Hello, World!')
+    </pre>
+
+    <!-- code: Também é para código, porem para código inline, destaca o texto como se fosse algo do código, um elemento ou parte -->
+    <p>Como você pode ver acima, a variável <code>nome</code> é do tipo <code>string</code>.</p>
+
+    <blockquote>
+        "Qualquer Citação."
+    </blockquote>
+
+    <p>
+        <!-- sup: Faz com que o texto de uma leve levantada no nivel, ideal para indicar calculos matemáticos no front -->
+        <!-- sub: Faz com que o texto fique um pouco abaixo, ideal para calculos, e mostrar visualmente componentes quimicos no front -->
+        2<sup>10</sup> - H<sub>2</sub>O
+    </p>
+    
+
+</body>
+</html>
