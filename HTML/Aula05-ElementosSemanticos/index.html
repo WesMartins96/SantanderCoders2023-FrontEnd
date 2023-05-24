@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 - Elementos Semânticos</title>
+</head>
+<body>
+    <!-- ELEMENTOS SEMÂNTICOS -->
+    <!-- 
+        header
+        main
+        aside
+        footer
+        section
+        article
+        figure
+        nav
+     -->
+
+     <!-- Cabeçalho -->
+     <header>
+        <!-- Barra de Navegação -->
+        <nav>Barra de Navegação</nav>
+     </header>
+
+     <!-- Conteúdo principal -->
+     <main>
+        <!-- Seções da página -->
+        <section id="about-me">
+            <!-- Usado para imagens, serve para envolver a imagem -->
+            <figure>
+                <img src="https://avatars.githubusercontent.com/u/87132093?v=4" alt="minha imagem de perfil" width="200">
+                <!-- Legenda da imagem -->
+                <figcaption>Minha foto de perfil</figcaption>
+            </figure>
+            
+            
+        </section>
+
+        <section id="portfolio">
+            Portfólio
+        </section>
+
+        <section id="blog">
+            <!-- Para se usar com elementos que são repetiveis, usados varias vezes. Se cria um novo escopo assim podendo reutilizar outras tags semânticas -->
+            <article>
+                <header></header>
+
+                <main></main>
+
+                <footer></footer>
+            </article>
+        </section>
+        
+     </main>
+
+     <!-- Barra lateral -->
+     <aside>
+        Conteúdo da barra lateral
+     </aside>
+
+     <!-- Rodapé -->
+     <footer>
+        Desenvolvido por Wesley Martins
+     </footer>
+</body>
+</html>
