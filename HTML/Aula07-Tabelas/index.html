@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07 - Tabelas no HTML</title>
+</head>
+<body>
+    <!-- Conteúdo da aula: Cabeçalho e Corpo, Linhas e Colunas, Mesclando células (linhas ou colunas) -->
+
+    <main>
+        <h1>Tabelas no HTML</h1>
+
+        <section id="alunos">
+            <h2>Tabela de Alunos</h2>
+
+            <!-- Tabela no HTML -->
+            <table border="2">
+                <!-- Cabeçalho da Tabela -->
+                <thead>
+                    <!-- Criar uma linha na tabela -->
+                    <tr>
+                        <!-- Criar uma célula no thead da table, usa-se th -->
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+                <!-- Corpo da Tabela -->
+                <tbody>
+                    <tr>
+                        <!-- Criar uma célula no tbody da table, usa-se td(table data) -->
+                        <td>Wesley</td>
+                        <td>Wes@gmail.com</td>
+                        <td>33698</td>
+                    </tr>
+                    <tr>
+                        <td>Beatriz</td>
+                        <td>Bea@outlook.com</td>
+                        <td>66598</td>
+                    </tr>
+                    <tr>
+                        <td>Gael</td>
+                        <td>Gah@yahoo.com</td>
+                        <td>55223</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <br>
+        <br>
+
+        <section id="financeiro">
+            <h2>Tabela de Controle Financeiro</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- Para mesclar(retirar/substituir) as linhas usando rowspan -->
+                        <td rowspan="2">15/06/2022</td>
+                        <!-- Para mesclar(retirar/substituie) colunas usando colsspan -->
+                        <td colspan="2">Despesa</td>
+                        <!-- Agora Despesa pegou o espaço de Almoço e agora está com dois espaços(colunas) na tabela -->
+                        <!-- <td>Almoço</td> -->
+                        <td>R$ 35,00</td>
+                    </tr>
+                    <tr>
+                        <!-- Agora deve-se retirar o td que terá o rowspan para realizar a mesclagem -->
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 3.765,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+
+</body>
+</html>
