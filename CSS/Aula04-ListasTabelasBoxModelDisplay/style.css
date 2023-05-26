@@ -1,0 +1,52 @@
+*{
+    /* Elemento preserva as dimenções */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    font-size: 1.5rem;
+    /* Estilização da borda da box da table */
+    border-collapse: collapse;
+}
+
+table, td, th{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* estilizar o cabeçalho da tabela */
+table tr:first-child{
+    background-color: #F73D93;
+    color: white;
+}
+
+/* Estilizar as linhas da tabela */
+table tr:nth-child(2n + 3){
+    background-color: #FED1EF;
+}
+
+
+/* Estilizando Listas */
+ul{
+    list-style: square;
+}
+
+ol{
+    list-style: decimal-leading-zero;
+}
+
+/* usando box model dentro de uma div */
+.box{
+    height: 200px;
+    width: 400px;
+    border: 4px solid black ;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    /* como padrão o elemento div vem como block, mudando o display a img fica ao lado */
+    display: inline-block;
+}

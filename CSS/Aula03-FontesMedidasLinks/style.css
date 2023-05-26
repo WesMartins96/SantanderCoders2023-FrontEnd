@@ -1,0 +1,39 @@
+/* Assim é feito o importe da fonte via css */
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-family: 'Slackside One', cursive;
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 32px;
+}
+
+/* Fiz uma estilização no 'a' para parecer um botão */
+a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    border: 2px solid slateblue;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+a:hover{
+    color: blue;
+}
+
+/* MEDIDAS */
+/* Sempre utilizar com acessibilidade na página */
+/* Para que o usuário tenha suas configurações(opções de acessibilidade do navegador) de tamanho de fonte respeitadas, utilizamos rem */
+/* O metodo de medida 'em' não é muito utilizado, pois pode bagunçar um pouco o código. */
+/* O metodo de medida porcentagem '%' é muito utilizado, tem uma boa responsividade */
+/* 'vh' pega a medida da zona da página */
