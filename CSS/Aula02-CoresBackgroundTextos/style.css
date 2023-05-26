@@ -1,0 +1,46 @@
+/* RESETAR O CSS NO PÁGINA */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 32px;
+    background-color: black;
+    color: #7825B5;
+    margin: 2px;
+
+    /* Podemos decorar os textos usando as propriedades abaixo e muitas outras */
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+/* Podemos atribuir cores ao elemento com hexadecimal ou RGB */
+.cor{
+    color: #19F9FA;
+    background-color: #0A0336;
+    font-size: 68px;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+/* Usando a classe para estilizar o elemento que esta classe referencia */
+.imagemFundo img{
+    height: 750px;
+    width: 100%;
+}
+
+/* Usando uma imagem local com css como url direto na div */
+.imagemFundoUrl{
+    height: 750px;
+    width: 100%;
+    background-image: url(./img/wallhaven-q6lokd.jpg);
+    /* Propriedade para configurar a imagem, assim cabendo na div certinho, a div tem que estar com a proporção correta para funcionar */
+    background-size: cover;
+    /* Podemos criar um efeito parallax, não funciona em todos os navegadores */
+    background-attachment: fixed;
+}
