@@ -1,0 +1,26 @@
+table{
+    font-size: 1.5rem;
+    /* Estilização da borda da box da table */
+    border-collapse: collapse;
+}
+
+table, td, th{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* estilizar o cabeçalho da tabela */
+table tr:first-child{
+    background-color: #F73D93;
+    color: white;
+}
+
+/* Estilizar as linhas da tabela */
+table tr:nth-child(2n + 3){
+    background-color: #FED1EF;
+}
+
+#cabecalho {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
