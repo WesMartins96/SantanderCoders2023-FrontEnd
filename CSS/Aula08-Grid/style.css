@@ -1,0 +1,35 @@
+.boxes {
+  position: relative;
+  height: calc(100vh);
+
+  /* espaçamento entre os elementos */
+  gap: 2rem 2rem;
+
+  /* usando grid */
+  display: grid;
+  /* para dizer ao grid como vamos dispor as colunas usamos: */
+  /* grid-template-columns: 3fr 1fr 1fr 1fr; */
+  grid-template-columns: 3fr repeat(2, 1fr);
+  /* o mesmo serve para dispor as linhas */
+  /* grid-template-rows: 1fr 2fr; */
+
+  /* podemos alinhas com justify-content */
+  justify-content: flex-start;
+}
+
+.box {
+  min-height: 10rem;
+  min-width: 20rem;
+  padding: 1.5rem;
+  border: 10px solid red;
+  border-radius: 0.4rem;
+  background-color: blue;
+  color: white;
+  font-size: 4rem;
+  flex: 1;
+
+  display: flex;
+  gap: 0 2rem;
+  justify-content: center;
+  align-content: center;
+}
