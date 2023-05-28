@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
+
+
 /* reset do css da página */
 *{
     margin: 0;
@@ -8,9 +10,13 @@
 }
 
 
+/* VARIÁVEIS com CSS */
+/* Geralmente ficam dentro do escopo do :root */
+
 /* Trabalhar com medidas de forma mais otimizada */
 :root{
     font-size: 62.5%;
+    --borda: 0.1rem solid rgba(0, 0, 0, 0.15);
 }
 
 body{
@@ -57,9 +63,10 @@ aside h1 span{
 main{
     width: 60rem;
     height: 52rem;
-    border: 1px solid rgb(0, 0, 0, 0.15);
+    border: var(--borda);
     padding: 4.4rem 5.7rem ;
     border-radius: 1.2rem;
+    position: relative;
 }
 
 main h2{
@@ -110,4 +117,79 @@ main footer a {
     color: black;
 
     display: block;
+}
+
+
+/* Nova Entidade */
+
+main header{
+    display: flex;
+    align-items: center;
+    gap: 0 1.8rem;
+}
+
+main header i{
+    color: #FF5678;
+    font-size: 2.0rem;
+}
+
+main form{
+    margin-top: 1.6rem;
+}
+
+main form label{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+
+/* Usando :is para encurtar o código */
+main form :is(input, select){
+    width: 489px;
+    height: 5.5rem;
+    display: block;
+
+    background: white;
+    border: var(--borda);
+    border-radius: 1.2rem;
+}
+
+main form select{
+    appearance: none;
+}
+
+main form .select-div{
+    position: relative;
+}
+
+main form .select-div::after{
+    top: 1.6rem;
+    right: 1.6rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    content: '\f107';
+    font-family: 'Font Awesome 6 Free';
+    position: absolute;
+    z-index: 1;
+    color: #35E6E9;
+}
+
+main form .points{
+    position: relative;
+}
+
+
+
+main form input + button{
+    position: absolute;
+    right: -3.8rem;
+    top: calc(2.7rem + 2.3rem);
+    font-size: 2.4rem;
+    cursor: pointer;
+
+    background-color: transparent;
+    border: none;
+    color: #35E6E9;
 }
