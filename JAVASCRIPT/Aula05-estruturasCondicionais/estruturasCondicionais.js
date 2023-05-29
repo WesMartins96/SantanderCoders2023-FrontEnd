@@ -8,6 +8,4 @@ if (idade >= 18) {
     console.log('Você é menor de idade!');
 }
 
-var x = 10;
-console.log(x + y);
-let y = 15;
+
