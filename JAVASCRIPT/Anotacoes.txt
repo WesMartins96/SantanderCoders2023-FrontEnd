@@ -1,0 +1,11 @@
+-JAVASCRIPT-
+
+JavaScript é uma linguagem de programação amplamente utilizada para criar páginas web interativas. Ela permite que os desenvolvedores adicionem funcionalidades dinâmicas aos seus sites, tornando-os mais atrativos e envolventes para os usuários.
+
+Com JavaScript, é possível manipular elementos HTML, criar animações, validar formulários, interagir com APIs e muito mais. A linguagem possui uma sintaxe fácil de aprender e oferece recursos poderosos para a criação de aplicações web.
+
+Além de ser executado no lado do cliente, o JavaScript também é usado no lado do servidor por meio do Node.js, permitindo que os desenvolvedores construam aplicativos web completos com uma única linguagem.
+
+O ecossistema do JavaScript é vasto, com uma infinidade de bibliotecas e frameworks populares, como React, Angular e Vue.js, que simplificam o desenvolvimento de interfaces de usuário complexas.
+
+Com seu amplo suporte e flexibilidade, JavaScript continua sendo uma escolha popular entre os desenvolvedores para a criação de aplicações web modernas e dinâmicas. Se você deseja entrar no mundo do desenvolvimento web, aprender JavaScript é um passo importante.
