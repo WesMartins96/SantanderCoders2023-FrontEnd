@@ -1,0 +1,11 @@
+
+COMO INSTALAR O REACT, usando VITE.
+
+1. Abrindo o terminal, com o node instalado, use o comando dentro da pasta em que quer instalar o projeto:
+    npm create vite
+
+2. Após a instalação do projeto, é necessário instalar as dependências, dentro do projeto com o comando:
+    npm install  ou  npm i
+
+3. Para rodar o projeto, use o comando:
+    npm run dev
